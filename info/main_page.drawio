@@ -1,0 +1,114 @@
+<mxfile host="65bd71144e">
+    <diagram id="eISCHPYmqByzcik27NQ2" name="Page-1">
+        <mxGraphModel dx="418" dy="290" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="1">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="15" value="Главная страница" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;strokeColor=#FFFFFF;fontSize=12;fillColor=#000000;fontFamily=Tahoma;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1" collapsed="1">
+                    <mxGeometry x="350" y="40" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Музыка" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=#472a2a;strokeColor=#FFFFFF;fontFamily=Tahoma;fontSize=12;fillColor=#000000;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="180" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;fontFamily=Tahoma;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="15" target="18" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="80" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="Сортировка" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=#472a2a;strokeColor=#FFFFFF;fontFamily=Tahoma;fontSize=12;fillColor=#000000;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="370" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;fontFamily=Tahoma;fontSize=12;exitX=1;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="18" target="20" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="425" y="392" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="Плейлисты" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=#472a2a;strokeColor=#FFFFFF;fontFamily=Tahoma;fontSize=12;fillColor=#000000;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="370" width="115" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;fontFamily=Tahoma;fontSize=12;exitX=0;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="18" target="22" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="412" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="Плейлистами будут являться dir&lt;br&gt;то есть у пользователя будет&lt;br&gt;возможность создавать&amp;nbsp;&lt;br&gt;плейлисты создавая dir&lt;br&gt;&amp;nbsp;изначально плейлисты будут&lt;br&gt;отображаться вместе с треками" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Tahoma;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="410" width="210" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Сортировка будет в виде кнопки&lt;br&gt;которая меняется при нажатии&lt;br&gt;сортировать можно будет по:&lt;br&gt;дате&lt;br&gt;алфавиту&lt;br&gt;&amp;nbsp;..." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Tahoma;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="410" width="210" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Трек&lt;br&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=#472a2a;strokeColor=#FFFFFF;fontFamily=Tahoma;fontSize=12;fillColor=#000000;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="600" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;fontFamily=Tahoma;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="18" target="30" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="330" y="580" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="Repeat" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=#472a2a;strokeColor=#FFFFFF;fontFamily=Tahoma;fontSize=12;fillColor=#000000;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="770" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;fontFamily=Tahoma;fontSize=12;exitX=1;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="30" target="32" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="430" y="870" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="Shuffle" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=#472a2a;strokeColor=#FFFFFF;fontFamily=Tahoma;fontSize=12;fillColor=#000000;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="177.5" y="770" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;fontFamily=Tahoma;fontSize=12;exitX=0.084;exitY=1.054;exitDx=0;exitDy=0;exitPerimeter=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="30" target="37" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="220" y="824" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="" style="edgeStyle=orthogonalEdgeStyle;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;targetPortConstraint=eastwest;sourcePortConstraint=northsouth;curved=0;rounded=0;fontFamily=Tahoma;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="1" target="49" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="820" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="" style="edgeStyle=orthogonalEdgeStyle;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;targetPortConstraint=eastwest;sourcePortConstraint=northsouth;curved=0;rounded=0;fontFamily=Tahoma;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="30" target="50" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="820" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="Prev" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;labelBackgroundColor=#472a2a;strokeColor=#FFFFFF;fontFamily=Tahoma;fontSize=12;fillColor=#000000;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="800" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Next" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;labelBackgroundColor=#472a2a;strokeColor=#FFFFFF;fontFamily=Tahoma;fontSize=12;fillColor=#000000;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="410" y="800" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="" style="edgeStyle=orthogonalEdgeStyle;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;targetPortConstraint=eastwest;sourcePortConstraint=northsouth;curved=0;rounded=0;fontFamily=Tahoma;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="1" target="53" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="890" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="" style="edgeStyle=orthogonalEdgeStyle;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;targetPortConstraint=eastwest;sourcePortConstraint=northsouth;curved=0;rounded=0;fontFamily=Tahoma;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="1" target="54" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="820" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="Pause" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;labelBackgroundColor=#472a2a;strokeColor=#FFFFFF;fontFamily=Tahoma;fontSize=12;fillColor=#000000;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="930" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="Play" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;labelBackgroundColor=#472a2a;strokeColor=#FFFFFF;fontFamily=Tahoma;fontSize=12;fillColor=#000000;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="410" y="930" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" style="edgeStyle=elbowEdgeStyle;html=1;startArrow=none;endArrow=none;entryX=1;entryY=1;entryDx=0;entryDy=0;fontFamily=Tahoma;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="55" target="15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="Settings" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};labelBackgroundColor=#472a2a;strokeColor=#FFFFFF;fontFamily=Tahoma;fontSize=12;fillColor=#000000;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="924.64" y="180" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="Music Path&lt;br&gt;Output device&lt;br&gt;Maybe Equalizer????" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Tahoma;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="904.64" y="250" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="Обложку ???" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Tahoma;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="610" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="Tаймер ???" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Tahoma;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="195" width="90" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
