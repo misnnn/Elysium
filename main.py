@@ -53,7 +53,12 @@ class SongCurrent(ft.Container):
             padding=10,
             content=ft.Column(
                 controls=[
-                    self.current_song_name,
+                    ft.Row(
+                        controls=[
+                            self.current_song_name
+                        ],
+                        alignment=ft.MainAxisAlignment.CENTER
+                    ),
                     ft.Row(
                         controls=[
                             self.elapsed_time_text,
